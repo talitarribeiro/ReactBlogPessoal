@@ -1,44 +1,48 @@
 
 import React from 'react';
 import { AppBar, Toolbar, Typography, Box } from '@material-ui/core';
+import './Navbar.css'
+
+
 function Navbar() {
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="static" className="cor-navbar">
         <Toolbar variant="dense">
-          <Box style={{ cursor: "pointer" }} >
-            <Typography variant="h5" color="inherit">
-              BlogPessoal
-            </Typography>
-          </Box>
 
           <Box display="flex" justifyContent="start">
-            <Box mx={1} style={{ cursor: "pointer" }}>
-              <Typography variant="h6" color="inherit">
-                home
-              </Typography>
+            <Box  mx={2} style={{ cursor: "pointer" }} >
+            <img src="https://i.imgur.com/HS4mfJv.png" alt="" width="70px" height="60px" />
             </Box>
-            <Box mx={1} style={{ cursor: "pointer" }}>
-              <Typography variant="h6" color="inherit">
+
+          <Box display="flex" justifyContent="left" className="margin">
+            
+            <Box mx={4} style={{ cursor: "pointer" }}>
+              <Typography className="fonte">
                 postagens
               </Typography>
             </Box>
-            <Box mx={1} style={{ cursor: "pointer" }}>
-              <Typography variant="h6" color="inherit">
+
+            <Box mx={4} style={{ cursor: "pointer" }}>
+              <Typography className="fonte">
                 temas
               </Typography>
             </Box>
-            <Box mx={1} style={{ cursor: "pointer" }}>
-              <Typography variant="h6" color="inherit">
+
+            <Box mx={4} style={{ cursor: "pointer" }}>
+              <Typography className="fonte">
                 cadastrar tema
               </Typography>
             </Box>
-            <Box mx={1} style={{ cursor: "pointer" }}>
-              <Typography variant="h6" color="inherit">
+
+            <Box mx={2} style={{ cursor: "pointer" }}>
+              <Typography  className="fonte">
                 logout
               </Typography>
             </Box>
+
           </Box>
+        </Box>
 
         </Toolbar>
       </AppBar>
