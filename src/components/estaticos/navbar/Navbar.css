@@ -1,14 +1,8 @@
-.cor-navbar{
-    background-color:  #A6A6A6!important;
+.cursor{
+    cursor: pointer;
+    color: white;
 }
 
-.margin{
-    margin: 20px 0px 0px 50px;
-}
-
-.fonte{
-    font-family: 'Cairo', sans-serif;
-    font-variant: initial;
-    color:#826776;
-    font-weight: "bold"
+.text-decorator-none{
+    text-decoration: none;
 }

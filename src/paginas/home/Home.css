@@ -1,15 +1,19 @@
-.marginlogocentro{
-    margin: 50px 0px 50px 0px;
+
+.caixa{
+    background-color: #3F51B5;
 }
 
-.fundo{
-    background-color:#D9D9D9;
+.titulo{
+   color: white !important;
+   font-weight: bold !important;
 }
 
 .botao{
-    color: #CE9291;
+    border-color: white !important;
+    background-color: #3F51B5;
+    color: white !important;
 }
 
-.fonte{
-    font-family: 'Cairo', sans-serif;
+.postagens{
+    background-color: white;
 }
